@@ -1,5 +1,5 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Deploy static content to Pages 2
 
 on:
   # Runs on pushes targeting the default branch
@@ -31,7 +31,7 @@ jobs:
       - name: Set-up Node
         uses: actions/setup-node@v1
         with: 
-         node-version: 10.x
+         node-version: 20.x
       - name: Install Dependencies
         run: |
           npm install --save-dev node-qunit-phantomjs
@@ -46,7 +46,7 @@ jobs:
       - name: Set-up Node
         uses: actions/setup-node@v1
         with: 
-         node-version: 10.x
+         node-version: 20.x
       - name: Install Dependencies
         run: npm i eslint@5.16.0
       - name: Lint
