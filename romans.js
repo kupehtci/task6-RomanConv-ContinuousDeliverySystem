@@ -48,9 +48,9 @@ const convertRomanToInteger = (roman) => {
 
   let response = {
     value: 0,
-    message: '',
+    message: "",
     result: false
-  }
+  };
 
   // Regexp to check if a string is a valid roman number
   const romanNumeralRegex = new RegExp(
@@ -108,9 +108,9 @@ const convertIntegerToRoman = (num) => {
 
   let response = {
     value: 0,
-    message: '',
+    message: "",
     result: false
-  }
+  };
 
   // Regexp to check the input is a valid integer
   const numberRegex = new RegExp(/^\d+$/);
