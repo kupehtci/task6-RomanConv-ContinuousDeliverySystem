@@ -1,0 +1,6 @@
+# ignore files under image
+/images/*
+*.png
+*.jpg
+*.jpeg
+
