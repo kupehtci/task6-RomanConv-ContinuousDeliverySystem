@@ -11,12 +11,7 @@ function init() {
   var convertButton = document.querySelector(".convert-button");
   var outputArea = document.querySelector(".convert-output");
   var inputArea = document.querySelector("input[type='text']");
-
-
-  //modeCheckbox.addEventListener("change", (e) => {
-  //  header.innerHTML = getModeTitle(e.target.checked);
-  //});
-
+  
   const getModeTitle = (integerToRoman) => {
     return integerToRoman ? "Integer To Roman" : "Roman To Integer";
   };
